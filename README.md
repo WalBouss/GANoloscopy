@@ -18,7 +18,7 @@ A simple GAN to generate synthetic colorectal images with the associated mask, b
 
 Some examples:
 
-![Example 0](data/yolact_example_0.png)
+![Example 0](data/example_0.png)
 
 
 # Installation
