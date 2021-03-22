@@ -74,6 +74,7 @@ GANoloscopy uses [Weights & Biases](https://wandb.ai/home) library to visualize 
 
 # Custom Datasets
 You can also train on your own dataset by following organizing your data as follow:
+
     .
     ├── dir                    
     │   ├── images          
@@ -87,8 +88,8 @@ If you use GANoloscopy or this code base in your work, please cite
 ```
 @article{Bousselham-GANoloscopy-2021,
   author  = {Walid Bousselham},
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title   = {YOLACT++: Better Real-time Instance Segmentation}, 
+  url     = {https://github.com/WalBouss/GANoloscopy/} 
+  title   = {GANoloscopy: Generate colon images to enhance colonoscopies}, 
   year    = {2021},
 }
 ```
