@@ -18,7 +18,7 @@ A simple GAN to generate synthetic colorectal images with the associated mask, b
 
 Some examples:
 
-![Example 0](results/example_0.png)
+![Example 0](results/example_2.png)
 
 
 # Installation
@@ -39,8 +39,9 @@ Some examples:
        pip install wandb
        pip install opencv-python pillow pycocotools matplotlib 
        ```
+  - Download the pretrain weights from [here](https://drive.google.com/file/d/1R7woqUnqJWLgwBUd0sw-rHe0qI2c59JK/view?usp=sharing) and place the file in the `./weight` folder.
 # Generate synthetic dataset
-To generate a synthetic dataset edit and run the following command (the pretrained weight is already in `./weight` dir):
+To generate a synthetic dataset edit and run the following command (don't forget to put the pretrained weight is already in `./weight` dir):
 ```Shell
 # Specify the lenght and where to save the generated dataset.
 python generate_synthetic_dataset.py --dataset_length=100 --path_to_save_img=path/dir/imgs --path_to_save_msk=path/dir/msks
